@@ -51,7 +51,6 @@ void setup() {
   //start server
   server.begin();
   Serial.println("ESP8266 car server started.");
-  digitalWrite(LED_PIN, LOW);
 }
 
 // handle HTTP requests and control car
